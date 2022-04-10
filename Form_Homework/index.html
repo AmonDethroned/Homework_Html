@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UJP - Form</title>
+  </head>
+
+  <body>
+    <main>
+      <form>
+        <h2>ПРИЈАВА</h2>
+        <h2>За вработување во Управа за јавни приходи</h2>
+
+        <section>
+          <div>
+            <table>
+              <tr>
+                <td>Број на оглас</td>
+                <td>
+                  <input
+                    type="number"
+                    id="quantity"
+                    name="quantity"
+                    min="1"
+                    max="5"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  Реден број на работно<br />
+                  место за кое аплицирате
+                </td>
+                <td><textarea></textarea></td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        <section>
+          <h4>ЛИЧНИ ПОДАТОЦИ</h4>
+          <table border="1">
+            <tr>
+              <td>Име и презиме</td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td>Датум на раѓање</td>
+              <td><input type="date" /></td>
+              <td>Пол</td>
+              <td>
+                <input type="radio" name="genders" />M<input
+                  type="radio"
+                  name="genders"
+                />Ж
+              </td>
+              <td>Државјанин на РМ</td>
+              <td>
+                <input type="radio" name="residents" />Да<input
+                  type="radio"
+                  name="residents"
+                />Не
+              </td>
+            </tr>
+            <tr>
+              <td>Адреса</td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td>Контакт</td>
+              <td>
+                Телефон<input type="number" />е-Пошта<input type="text" />
+              </td>
+            </tr>
+          </table>
+        </section>
+        <section>
+          <h4>ОБРАЗОВАНИЕ</h4>
+          <table border="1">
+            <tr>
+              <td>Образовна институција</td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td>Насока на завршено<br />образование / смер</td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td>Степен на образование</td>
+              <td>
+                <input type="radio" name="residents" />IV
+                <input type="radio" name="residents" />VI
+                <input type="radio" name="residents" />VII/1
+                <input type="radio" name="residents" />VII/2
+                <input type="radio" name="residents" />VIII
+                <input type="radio" name="residents" /> ЕКТС
+                <input type="number" /> кредити
+              </td>
+            </tr>
+            <tr>
+              <td>Просечна оцена</td>
+              <td><input type="number" /></td>
+            </tr>
+          </table>
+        </section>
+        <section>
+          <h4>РАБОТНО ИСКУСТВО</h4>
+          <table border="1">
+            <tr>
+              <td>Работно искуство</td>
+              <td>
+                <input type="radio" name="residents" />Да<input
+                  type="radio"
+                  name="residents"
+                />Не
+              </td>
+              <td>
+                Работно искуство во струката
+                <input
+                  type="number"
+                  id="quantity"
+                  name="quantity"
+                  min="1"
+                  max="5"
+                />
+                Години
+                <input
+                  type="number"
+                  id="quantity"
+                  name="quantity"
+                  min="1"
+                  max="5"
+                />
+                месеци
+              </td>
+            </tr>
+            <tr>
+              <td>Област во која е стекнато работното искуство</td>
+              <td><input type="text" /></td>
+            </tr>
+          </table>
+        </section>
+        <section>
+          <h4>ВЕШТИНИ</h4>
+          <table border="1">
+            <tr>
+              <td>Познавање на јазици</td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td>Компјутерски вештини</td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td>Возачка дозвола(категорија)</td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td>Други персонални способности и вештини</td>
+              <td><input type="text" /></td>
+            </tr>
+          </table>
+        </section>
+        <section>
+          <h4>ИЗЈАВА</h4>
+          <table>
+            <p>
+              Изјавувам под морална, материјална и кривична одговорност, дека
+              податоците наведени во оваа пријава се веродостојни и дека на
+              барање на Управата за јавни приходи ќе доставам докази, во
+              оригинал или копија заверена кај нотар. Се согласувам личните
+              податоци наведени во пријавата да се користат исклучиво за цели на
+              постапката на вработување во Управата за јавни приходи.
+            </p>
+          </table>
+        </section>
+        <section>
+          <table>
+            <tr>
+              <td>Потпис</td>
+              <td><input type="text" /></td>
+              <td>Датум на поднесување</td>
+              <td><input type="date" /></td>
+            </tr>
+          </table>
+        </section>
+        <footer>
+          <p>
+            *Образецот е објавен на веб страницата на УЈП
+            <a href="http://www.ujp.gov.mk/s/obrasci/opis/105"
+              ><i>http://www.ujp.gov.mk/s/obrasci/opis/105</i></a
+            >
+            и важи од 17.06.2013 година
+          </p>
+        </footer>
+      </form>
+    </main>
+  </body>
+</html>
