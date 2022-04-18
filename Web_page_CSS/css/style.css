@@ -1,0 +1,63 @@
+body{
+    margin:0;
+   
+}
+
+
+/* NAVBAR */
+
+.logo{
+    float:left;
+    margin-left:70px;
+    
+    
+    
+}
+
+.nav_links{
+    float:right;
+    list-style: none;
+    margin-right: 70px;
+    
+}
+
+
+.link li{
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+
+
+/* HEADER BELOW THE NAV */
+
+
+.intro{
+    float:left;
+    margin-left: 70px;
+
+    
+}
+
+.box{
+    float:right;
+    margin: 30px 90px;
+    background-color: rgb(114, 114, 122);
+    width: 300px;
+    height: 150px;
+    text-align: center;
+}
+
+.box span{
+    float:left;
+    margin: 65px 30px;
+    
+}
+hr{
+    height: 50px;
+    background-color: red;
+}
+
+
+    
