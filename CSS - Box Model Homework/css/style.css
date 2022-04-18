@@ -1,0 +1,146 @@
+body{
+    margin:0;
+}
+
+
+header{
+    
+    padding-bottom: 30px;
+}
+
+header, .intro_box, .word, .twitter, footer{
+    background-color: #c3c3c3;
+}
+
+/* NAVBAR */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 60px;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin-right: 10px;
+    
+    
+    
+}
+.navbar li, footer li{
+    padding: 0 20px;
+    list-style: none;
+    
+   
+   
+}
+
+
+/* INTRO */
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px;   
+
+}
+
+.first_intro h1{
+    margin-top: 10px;
+    line-height: 5px;
+}
+
+.first_intro p{
+line-height: 20px;
+}
+
+
+.intro_box{
+    width: 300px;
+    height: 130px;
+    border: 1px solid #9b8181;    
+    margin-right: 40px;
+    background-color: #9f9f9f;
+    
+}
+
+.intro_box p{
+    width: 115px;    
+    margin-top: 45px;
+    margin-left: 40px;
+}
+
+hr{
+    width: 160px;
+    border-width: 20px;
+    border-top-style: dotted;
+    border-color: rgb(184, 190, 190);
+    border-bottom: none;
+    border-left-style: none;
+    border-right-style: none;
+    margin: 15px 1300px 15px;
+}
+
+
+/* BOXES */
+
+.word{
+    
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    margin: 1px 60px;
+    
+    text-align: center;
+    
+}
+
+.word p{
+    margin-top: 250px;
+}
+
+.boxes_two{
+    margin-top: 30px;
+}
+
+/* TWITTER FEED */
+
+
+.twitter{
+    
+    width: 1748px;
+    height: 60px;
+    margin: 30px 60px;
+    
+       
+}
+
+.twitter p{
+    float:left;
+    margin: 20px 20px;
+}
+
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    justify-content: space-between;    
+    height: 60px;
+    padding-top: 10px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    padding-left: 25px;
+
+}
+
+footer p{
+    padding-right: 95px;
+}
