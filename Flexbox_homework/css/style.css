@@ -1,0 +1,362 @@
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.section_wrapper{
+    width: 980px;
+    margin: 0 auto;
+    
+}
+
+/* NAVBAR */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #5d4954;
+    align-items: center;
+    height: 50px;
+    padding: 0 10px 0 10px;
+}
+
+.logo{
+    color: rgb(226, 226, 226);
+    letter-spacing: 5px;
+    font-size: 20px;
+    
+}
+
+.nav_links{
+    display: flex;
+    justify-content: space-between;
+    width:200px;
+    gap:1px;
+    
+}
+
+.nav_links li{
+    list-style: none;
+    font-size: 13px;
+    padding
+    
+}
+.fa-brands{
+    padding-right: 3px;
+    
+}
+
+
+.nav_links li a{
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+}
+
+
+.input{
+    background-color: rgb(150, 141, 141);
+    padding: 10px 40px;
+    border-radius: 30px;
+    border:none;
+    cursor: pointer;    
+    
+}
+
+#submit{
+    background-color: rgb(150, 141, 141);
+    padding: 10px 40px;
+    border-radius: 30px;
+    border:none;
+    cursor: pointer;  
+    color: rgb(226, 226, 226);
+    margin-right: 50px;
+}
+
+/* FIRST ROW */
+
+.first_row{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.mindfull{
+    width:490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+        
+}
+
+.mindfull h2{
+    font-size: 15px;
+    width: 100px;
+    margin-bottom: 0;
+    padding-right: 100px;
+    
+    
+}
+.mindfull p{
+    font-size: 10px;
+    width: 200px;
+
+}
+
+.back_image{
+    width:490px;
+    background-image: url(../images/mountain.jpeg);    
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
+}   
+
+
+.back_image img{
+    width:105px;    
+    border-radius: 3%;
+}
+
+
+/* SECOND ROW */
+
+/* Experience */
+.second_row{
+    background-image: url(../images/dark.jpeg);    
+    width: 980px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    color: rgb(226, 226, 226);
+    text-align: center;
+}
+
+.experience h2{
+    font-size: 20px;
+    margin: 30px 0 1px 0;
+}
+.experience p{
+    font-size: 10px;
+    width:300px;
+}
+
+/* Testimonials */
+
+.testimonials{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding-bottom: 30px;
+   
+}
+
+.test_class{
+    text-align: center;
+    color:rgb(226, 226, 226);
+}
+
+.strong_p{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.para{
+    font-size: 10px;
+    width:150px;
+    margin-left: 37px;
+}
+
+.test_image{
+    width:130px;
+    border-radius: 3%;
+    border: 1px solid rgb(226, 226, 226);;
+}
+
+
+/* THIRD ROW */
+
+.third_row{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.last_row_flex{
+    width:490px;      
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: ;   
+    
+}
+
+.last_row_flex h2{
+    font-size: 15px;
+    width:130px;
+    padding-right: 110px;
+    margin-bottom: 0;
+    
+}
+
+.pre_par{
+    font-size: 13px;
+    width: 220px;
+    padding-right: 20px;
+    margin-bottom:0px;
+}
+
+#act_par{
+    font-size: 10px;
+    width:240px;
+}
+
+.wolf_image{
+    width:490px;
+    background-image: url(../images/mountain.jpeg);    
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wolf_image img{
+    width:105px;
+    border-radius: 3%;
+    
+    
+}
+
+#second_submit{
+    background-color: rgb(150, 141, 141);
+    padding: 10px 40px;
+    border-radius: 30px;
+    border:none;
+    cursor: pointer;  
+    color: rgb(226, 226, 226);
+    margin-right: 105px;
+    margin-bottom: 15px;
+    
+}
+
+
+/* LAST ROW */
+
+.last_row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.our_plans{
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.our_plans h2{
+    font-size: 15px; 
+    margin-right: 55px;
+    
+}
+
+.our_plans p{
+    font-size: 10px;
+    width: 123px;
+    margin-top: 0px;
+
+}
+
+.change_color{
+    color:rgb(241, 171, 40)
+}
+
+
+/* PRICE BOX */
+
+.price_box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    line-height: 40px;
+}
+
+.price_box{
+    width: 490px;
+    background-color: rgb(224, 224, 233);
+    height: 300px;
+}
+
+
+.one_box{
+    background-color: #50424a;
+    width:180px;
+    height: 250px;
+    color: rgb(226, 226, 226);;
+    
+   
+}
+
+.one_box h5{
+    font-size: 12px;
+    margin-bottom:0;    
+    
+
+}
+
+hr{
+    width: 150px;
+    
+}
+
+
+.one_box p{
+ font-size: 10px;
+}
+
+
+.number{
+    display: block;
+    font-size: 45px;
+    position: relative;
+}
+.dollar{
+    font-size: 15px;
+    position: absolute;
+    left:55px;
+    top:-13px;
+    
+}
+
+#see_more{
+background-color: rgb(150, 141, 141);
+    padding: 10px 40px;
+    border-radius: 30px;
+    border:none;
+    cursor: pointer;  
+    color: rgb(226, 226, 226);
+    margin: 15px 0 10px;
+    margin-bottom: 10px;
+}
+
+
+input:active{
+    transform: scale(0.9);
+
+}
